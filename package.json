@@ -1,0 +1,26 @@
+{
+  "name": "guave-wordpress-starter",
+  "version": "0.1.0",
+  "description": "WordPress starter theme for Guave",
+  "homepage": "http://www.guaveinteractive.ch",
+  "author": {
+    "name": "Claudio Schwarz",
+    "url": "http://www.guaveinteractive.ch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gsdev.local:22/~/wp-startertheme.git"
+  },
+  "devDependencies": {
+    "grunt": "",
+    "grunt-contrib-concat": "",
+    "grunt-sass": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "bower": ""
+  },
+  "dependencies": {
+    "lodash": ""
+  }
+}
