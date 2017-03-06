@@ -59,6 +59,13 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+        copy: {
+            main: {
+                //expand: true,
+                //src: 'node_module/gutenberg-web-type/*',
+                //dest: 'bower/'
+            }
+        }
 	});
 
 	// 3. Where we tell Grunt we plan to use this plug-in.
@@ -66,6 +73,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
 	// 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
 	grunt.registerTask('build', ['concat', 'uglify', 'sass']);

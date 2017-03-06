@@ -1,24 +1,25 @@
 {
-  "name": "guave-wordpress-starter",
+  "name": "basic-bower-grunt-setup",
   "version": "0.1.0",
-  "description": "WordPress starter theme for Guave",
-  "homepage": "http://www.guaveinteractive.ch",
+  "description": "A basic bower/grunt frontend setup",
+  "homepage": "https://www.claudioschwarz.com",
   "author": {
     "name": "Claudio Schwarz",
-    "url": "http://www.guaveinteractive.ch"
+    "url": "https://www.claudioschwarz.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@gsdev.local:22/~/wp-startertheme.git"
+    "url": "https://github.com/purzlbaum/basic-bower-grunt-setup"
   },
   "devDependencies": {
+    "bower": "",
     "grunt": "",
     "grunt-contrib-concat": "",
-    "grunt-sass": "",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-uglify": "",
     "grunt-contrib-watch": "",
-    "bower": ""
+    "grunt-sass": ""
   },
   "dependencies": {
     "lodash": ""
